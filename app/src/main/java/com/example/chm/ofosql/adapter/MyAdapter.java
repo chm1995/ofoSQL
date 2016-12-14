@@ -10,20 +10,21 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Jay on 2015/9/22 0022.
  */
 public abstract class MyAdapter<T> extends BaseAdapter {
 
-    private ArrayList<T> mData;
+    private List<T> mData;
     private int mLayoutRes;           //布局id
 
 
     public MyAdapter() {
     }
 
-    public MyAdapter(ArrayList<T> mData, int mLayoutRes) {
+    public MyAdapter(List<T> mData, int mLayoutRes) {
         this.mData = mData;
         this.mLayoutRes = mLayoutRes;
     }

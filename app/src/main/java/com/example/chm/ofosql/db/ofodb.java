@@ -11,13 +11,6 @@ public class ofodb extends DataSupport {
     private String ofoid;
     private String pwd;
 
-    public ofodb() {
-    }
-
-    public ofodb(String ofoid, String pwd) {
-        this.ofoid = ofoid;
-        this.pwd = pwd;
-    }
 
     public String getOfoid() {
         return ofoid;
